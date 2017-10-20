@@ -1,0 +1,82 @@
+
+html,footer
+{margin: 0;
+padding: 0;
+height: 100%;
+}
+
+
+
+body {
+	background-image: url("web_images/background.jpg");
+	background-color: gray;/* wanneer achtergrond niet weergegeven kan worden*/
+	background-attachment: fixed;
+	background-position: center;
+
+
+}
+nav /* navagatie bar */
+{ 
+    padding: 10px ;
+	position: sticky;
+    top: 0;
+	background-image: url("web_images/background.jpg");
+
+ 
+}
+nav ul /* navagatie bar */
+{	
+    background: linear-gradient(90deg, 
+     rgba(170, 170, 170, 0.6) 0%, 
+     rgba(170, 170, 170, 0.6) 25%, 
+     rgba(170, 170, 170, 0.2) 75%, 
+     rgba(170, 170, 170, 0.2) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+
+
+}
+nav ul li /* navagatie bar */
+{
+    display: inline-block;
+	
+
+}
+nav ul li a /* Tekst navagatie bar */
+{
+    padding: 10px; 
+    color: white;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+
+ }
+ 
+ div /* Tekst blok home pagina */
+ {
+//  border: 10px solid black;
+    background-color: white;
+	background-image: url("web_images/tekst-background.jpg");
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+p1 /*tekst kleur 1*/
+ { 
+	color: white;
+	font-size: 18px;
+}
+
+footer /* onder aan de pagina*/
+{ 
+	max-height: 220px; 
+    position: relative; 
+    clear: both; 
+    background: rgba(170, 170, 170, 0.8);
+    text-align: center;
+}
+
+
