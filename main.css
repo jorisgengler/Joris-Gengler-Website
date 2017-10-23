@@ -22,7 +22,11 @@ body {
 
 nav /* navagatie bar */
 { 
-
+  width: 140px,;
+  position: fixed;
+  border-radius: 400;
+  height: 100vh;
+  background-color: rgba(170, 170, 170, 0.8);
 
 
 /*	position: sticky; */
@@ -100,13 +104,24 @@ nav ul li a:hover {
 	*/
 }
 .minindex{
-min-height:309px;
+	min-height:460px;
+	padding-left:250px;
+	padding-top:30px;
+
 }
 
 .mindomotica{
-min-height:309px;
+	min-height:309px;
+	padding-left:250px;
+	padding-top:30px;
 }
+.sandur-camerabeveiliging{
 
+	min-height:309px;
+	padding-left:250px;
+	padding-top:30px;
+	
+}
 
 
 p1 /*tekst kleur 1*/
@@ -133,7 +148,7 @@ footer /* onder aan de pagina*/
 
 video { 
     position: fixed;
-    top: 0%;
+    top: -20%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
@@ -141,3 +156,6 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) 
+}	
+	
+
