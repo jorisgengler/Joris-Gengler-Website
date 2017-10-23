@@ -28,7 +28,11 @@ nav /* navagatie bar */
   position: fixed;
   border-radius: 400;
   height: 100vh;
-  background-color: rgb(47,79,79,0.8);
+  background: darkslategray;
+  opacity: 0.9;
+  
+
+  
   
 
 
@@ -144,7 +148,7 @@ p1 /*tekst kleur 1*/
 
 footer /* onder aan de pagina*/
 { 
-
+	padding-left:50;
 	padding: 0px;
 /*	max-height: 220px; */
     clear: both; 
@@ -152,6 +156,7 @@ footer /* onder aan de pagina*/
     text-align: center;
 	bottom:0;
 /*	position:relative; */
+  opacity: 0.9;
 
 }
 
