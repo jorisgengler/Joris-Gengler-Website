@@ -17,7 +17,7 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-
+	
 }
 
 nav /* navagatie bar */
@@ -115,6 +115,8 @@ p1 /*tekst kleur 1*/
 	font-size: 18px;
 }
 
+
+
 footer /* onder aan de pagina*/
 { 
 
@@ -127,5 +129,6 @@ footer /* onder aan de pagina*/
 	position:relative;
 
 }
+
 
 
