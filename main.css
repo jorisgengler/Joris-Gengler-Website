@@ -10,13 +10,15 @@ padding: 0;
 
 body {
 
-	background-image: url("web_images/background.jpg");
-	background-color: gray;/* wanneer achtergrond niet weergegeven kan worden*/
+/*	background-image: url("web_images/background.jpg"); */
+	background-color: black;/* wanneer achtergrond niet weergegeven kan worden*/
 	background-attachment: fixed;
 	background-position: center; 
     height: 100%;
     margin: 0;
     padding: 0;
+	
+
 	
 }
 
@@ -26,7 +28,8 @@ nav /* navagatie bar */
   position: fixed;
   border-radius: 400;
   height: 100vh;
-  background-color: rgba(170, 170, 170, 0.8);
+  background-color: rgb(47,79,79,0.8);
+  
 
 
 /*	position: sticky; */
@@ -51,6 +54,7 @@ nav ul li /* navagatie bar */
 {
     display: /*inline-*/block;
 	
+	
 
 }
 
@@ -63,18 +67,23 @@ nav ul li a /* Tekst navagatie bar */
     font-family: arial, helvetica, sans-serif;
     text-decoration: none;
     display: block;
+	
 
  }
 nav ul li a:hover {
     background-color: #2F4F4F; 
 }
  
+
+
+
+ 
 .logo
 {
 	width: 40px ;
 	float: left;
 	height: auto;
-	margin: 0px 20px;
+	margin: 15px 10px;
 	
 	-webkit-transition: 1s ease-in-out;
 	-moz-transition: 1s ease-in-out;
@@ -104,24 +113,25 @@ nav ul li a:hover {
 	*/
 }
 .minindex{
-	min-height:460px;
+	min-height:476px;
 	padding-left:250px;
 	padding-top:30px;
 
 }
 
 .mindomotica{
-	min-height:309px;
+	min-height:476px;
 	padding-left:250px;
 	padding-top:30px;
 }
-.sandur-camerabeveiliging{
+.minsandur-camerabeveiliging{
 
 	min-height:309px;
 	padding-left:250px;
 	padding-top:30px;
 	
 }
+
 
 
 p1 /*tekst kleur 1*/
@@ -138,24 +148,26 @@ footer /* onder aan de pagina*/
 	padding: 0px;
 /*	max-height: 220px; */
     clear: both; 
-    background: rgba(170, 170, 170, 0.8);
+    background: darkslategray;
     text-align: center;
 	bottom:0;
-	position:relative;
+/*	position:relative; */
 
 }
 
 
 video { 
+
     position: fixed;
-    top: -20%;
-    left: 50%;
+    top: -130px;
+
+    left: 50%; 
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) 
+  /*  width: auto; */
+/*    height: auto; */
+    z-index: -200;
+    transform: translateX(-40%)  
 }	
 	
 
