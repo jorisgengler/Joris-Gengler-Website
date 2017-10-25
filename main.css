@@ -8,7 +8,7 @@ padding: 0;
 body {
 
 /*	background-image: url("web_images/background.jpg"); */
-	background-color: black;/* wanneer achtergrond niet weergegeven kan worden*/
+/*	background-color: black;/* wanneer achtergrond niet weergegeven kan worden*/
 	background-attachment: fixed;
 	background-position: center; 
     height: 100%;
@@ -83,6 +83,23 @@ nav ul li a:hover {
 	transform: scale(2);
 } 
  
+.fa{
+
+	margin-left:14px;
+	font-size:35px;
+	color:#8be5dc;
+	
+}
+
+
+.fa:hover{
+	transform: scale(1.5);
+		-webkit-transition: 1s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
+} 
+ 
+ 
 .facebook
 {
 	-webkit-transition: 1s ease-in-out;
@@ -94,54 +111,73 @@ nav ul li a:hover {
 	transform: scale(1.3);
 }  
  
- 
-.text /* Tekst blok home pagina */
- {
-	 padding-left: 40px;
-
-
-
-/*
-	min-height:350px;
-	background-image: url("web_images/tekst-background.jpg");
-    padding-top: 25px;
-    padding-right: 50px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-	*/
-}
-.minindex{
+ .minindex{
 	min-height:444px;
-	padding-left:250px;
+/*	padding-left:99px; */
 	padding-top:30px;
+
 
 }
 
-.mindomotica{
-	min-height:445px;
-	padding-left:250px;
-	padding-top:30px;
+.blok1 /* Tekst blok home pagina */
+ {
+	padding-left: 0px; 
+	background-color:gray;
+	margin-left: 80px;
+	margin-bottom:50px;
+	opacity: 0.9;
 }
-.minsandur-camerabeveiliging{
 
-	min-height:309px;
-	padding-left:250px;
+.blok2{
+
+	min-height:0px;
+	padding-left:0px;
 	padding-top:30px;
+	margin-left: 80px;
+	opacity: 0.9;
 	
 }
+
+.blok3{
+
+	min-height:0px;
+	padding-left:0px;
+	padding-top:30px;
+	margin-left: 80px;
+	opacity: 0.9;
+	
+}
+
+
+
+
+
+
 
 p1 /*tekst kleur 1*/
  { 
 	color: white;
 	font-size: 18px;
+
 }
+
+p2{
+	
+	color: white;
+	font-size: 18px;
+
+	
+	
+}
+
+
+
 
 video /*background video*/
 { 
 
     position: fixed;
     top: -130px;
-
     left: 50%; 
     min-width: 100%;
     min-height: 100%;
@@ -149,11 +185,19 @@ video /*background video*/
 /*  height: auto; */
     z-index: -200;
     transform: translateX(-40%);
+
 	
-}	
+}
+
+
+
+
+
+
+	
 footer /* onder aan de pagina*/
 { 
-	padding-left:50;
+	margin-left:80px;
 	padding: 0px;
 /*	max-height: 220px; */
     clear: both; 
@@ -164,4 +208,5 @@ footer /* onder aan de pagina*/
 	opacity: 0.9;
 
 }	
+
 
