@@ -161,15 +161,13 @@ nav ul li a:hover {
 
 .downbuttononder{
 	text-align: right;
-	margin-top: 510px;
 	margin-right: 40px;
+	padding-top: 520px;
 	
 } 
 .downbuttononder2{
 	
-	text-align: right;
-	margin-top: 379px;
-	margin-right: 40px;	
+
 	
 }
  
@@ -214,7 +212,7 @@ nav ul li a:hover {
 	margin-bottom:0px;
 	opacity: 0.9;
 	min-height:100vh;
-	min-height:100vh;
+
 }
 
 .home {/* Tekst blok home pagina */
