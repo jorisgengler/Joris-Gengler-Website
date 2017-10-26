@@ -17,9 +17,50 @@ body {
 		
 }
 
-nav /* navagatie bar */
+
+
+nav /*boven*/
+{
+
+    min-width: 80px; 
+	background: darkslategray;
+	opacity: 0.9;
+}
+nav ul /* navagatie bar */
+{
+    background: linear-gradient(90deg, 
+     rgba(170, 170, 170, 0.6) 0%, 
+     rgba(170, 170, 170, 0.6) 25%, 
+     rgba(170, 170, 170, 0.2) 75%, 
+     rgba(170, 170, 170, 0.2) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li 
+{
+    display: inline-block;
+}
+nav ul li a /* Tekst navagatie bar */
+{
+    padding: 10px; 
+    color: white;
+    font-size: 18px;
+    font-family: arial, helvetica, sans-serif;
+    text-decoration: none;
+    display: block;
+ }
+ nav ul li a:hover {
+	background-color: #2F4F4F; 
+}
+		
+
+ 		
+ @media (min-width:800px) {	/* navagatie bar zijkant */
+
+  
+nav 
 { 
-	width: 140px,;
+
 	position: fixed;
 /*	border-radius: 400; */
 	height: 100vh;
@@ -28,7 +69,7 @@ nav /* navagatie bar */
 /*	position: sticky; */
     top: 0; 
 /*	background-image: url("web_images/background.jpg"); */
-
+	width:80px;
  
 }
 nav ul /* navagatie bar */
@@ -46,7 +87,7 @@ nav ul /* navagatie bar */
 nav ul li /* navagatie bar */
 {
     display: /*inline-*/block;
-	
+
 	
 
 }
@@ -60,15 +101,20 @@ nav ul li a /* Tekst navagatie bar */
     font-family: arial, helvetica, sans-serif;
     text-decoration: none;
     display: block;
-	
+
 
  }
 nav ul li a:hover {
-    background-color: #2F4F4F; 
+	background-color: #2F4F4F; 
 }
  
-.logo
-{
+ 
+ }
+ 
+ 
+
+ 
+.logo{
 	width: 60px ;
 	float: left;
 	height: auto;
@@ -83,11 +129,7 @@ nav ul li a:hover {
 	transform: scale(2);
 } 
 
-
-	
-
- 
-.fa{
+.navbarlogo{
 
 	margin-left:14px;
 	font-size:35px;
@@ -95,17 +137,43 @@ nav ul li a:hover {
 	
 }
 
-
-.fa:hover{
+.navbarlogo:hover{
 	transform: scale(1.5);
 		-webkit-transition: 1s ease-in-out;
 	-moz-transition: 1s ease-in-out;
 	transition: 1s ease-in-out;
 } 
+.contactlogo{
+	margin-left:14px;
+	font-size:35px;
+	color:#8be5dc;	
+}
+.downbutton{
+	
+	margin-left:14px;
+	font-size:50px;
+	color:#8be5dc;	
+	
+}
+.downbutton:hover{
+	color:black;
+}
+
+.downbuttononder{
+	text-align: right;
+	margin-top: 510px;
+	margin-right: 40px;
+	
+} 
+.downbuttononder2{
+	
+	text-align: right;
+	margin-top: 379px;
+	margin-right: 40px;	
+	
+}
  
- 
-.facebook
-{
+.facebook{
 	-webkit-transition: 1s ease-in-out;
 	-moz-transition: 1s ease-in-out;
 	transition: 1s ease-in-out;
@@ -114,23 +182,6 @@ nav ul li a:hover {
 .facebook:hover{
 	transform: scale(1.3);
 }  
- 
-.minindex{
-	min-height:444px;
-/*	padding-left:99px; */
-	padding-top:0px;
-}
-
-.home /* Tekst blok home pagina */
- {
-	padding-left: 30px; 
-	padding-top: 10px;
-    background: #1b3535;
-	margin-left: 80px;
-	margin-bottom:0px;
-	opacity: 0.9;
-	min-height:100vh;
-}
 
 .flex-container {
     display: -webkit-flex;
@@ -148,9 +199,6 @@ nav ul li a:hover {
     margin: 10px;
 }
 
-
-
-
 .homeblok1{
 	background:gray;
 	margin-right:200px;
@@ -158,11 +206,7 @@ nav ul li a:hover {
 	
 }
 
-
-
-
-.about{
-
+.content {
 	padding-left: 30px; 
 	padding-top: 10px;
     background: #1b3535;
@@ -170,28 +214,26 @@ nav ul li a:hover {
 	margin-bottom:0px;
 	opacity: 0.9;
 	min-height:100vh;
+	min-height:100vh;
+}
+
+.home {/* Tekst blok home pagina */
+
+}
+
+.about{
+
+
 }
 
 .skills{
 
-	padding-left: 30px; 
-	padding-top: 10px;
-    background: #1b3535;
-	margin-left: 80px;
-	margin-bottom:0px;
-	opacity: 0.9;
-	min-height:100vh;
+
 }
 
 .contact{
 
-	padding-left: 30px; 
-	padding-top: 10px;
-    background: #1b3535;
-	margin-left: 80px;
-	margin-bottom:0px;
-	opacity: 0.95;
-	min-height:100vh;
+
 }
 
 .contactblok{
@@ -203,8 +245,6 @@ nav ul li a:hover {
 	text-align: center;	
 
 }
-
-
 
 .onderblok5{
 
@@ -223,10 +263,6 @@ nav ul li a:hover {
 	
 }
 
-
-
-
-
 p1 /*tekst kleur 1*/
  { 
 	color: white;
@@ -238,9 +274,6 @@ p2{
 	color: white;
 	font-size: 18px;	
 }
-
-
-
 
 video /*background video*/
 { 
@@ -256,12 +289,6 @@ video /*background video*/
     transform: translateX(-40%);
 }
 
-
-
-
-
-
-	
 footer /* onder aan de pagina*/
 { 
 	margin-left:80px;
@@ -274,5 +301,14 @@ footer /* onder aan de pagina*/
 /*	position:relative; */
 	opacity: 0.9;
 }	
+
+
+
+
+@media (max-width:800px){ /*blok naar link*/
+	.content, footer {
+		margin-left:0;
+	}
+}
 
 
