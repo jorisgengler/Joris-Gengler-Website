@@ -153,23 +153,24 @@ nav ul li a:hover {
 	margin-left:14px;
 	font-size:50px;
 	color:#8be5dc;	
+position: absolute;
+    z-index: 200;
 	
 }
 .downbutton:hover{
 	color:black;
+	
 }
 
 .downbuttononder{
-	text-align: right;
+	text-align: center;
 	margin-right: 40px;
 	padding-top: 520px;
-	
-} 
-.downbuttononder2{
-	
+	    z-index: 200;
 
 	
-}
+} 
+
  
 .facebook{
 	-webkit-transition: 1s ease-in-out;
@@ -195,6 +196,7 @@ nav ul li a:hover {
     width: 585px;
     height: 600px;
     margin: 10px;
+	
 }
 
 .homeblok1{
@@ -239,21 +241,13 @@ nav ul li a:hover {
 	background-color:darkslategray;
 	margin-left:10px;
 	margin-right:39px;
-	padding-bottom:520px;
+	padding-bottom:10px;
 	text-align: center;	
+	margin-top: 10px;
 
 }
 
-.onderblok5{
 
-	padding-left: 30px; 
-	padding-top: 10px;
-    background: #1b3535;
-	margin-left: 80px;
-	margin-bottom:0px;
-	opacity: 0.9;
-	min-height:100vh;
-}
 
 .blok5{
 	background-color: darkslategray;
@@ -308,5 +302,51 @@ footer /* onder aan de pagina*/
 		margin-left:0;
 	}
 }
+
+
+
+
+
+
+
+ /* Style inputs with type="text", select elements and textareas */
+input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+	resize: vertical
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #1b3535;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: #8be5dc;
+	color:black;
+	
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: darkslategray;
+	padding-left: 200px;
+	padding-right: 200px;
+	margin-top: 25px;
+} 
+
 
 

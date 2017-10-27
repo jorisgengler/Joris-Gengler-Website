@@ -1,3 +1,6 @@
+
+//scroll//
+
 $(document).ready(function(){
   
   $("a").on('click', function(event) {
@@ -21,3 +24,8 @@ $(document).ready(function(){
     } 
   });
 });
+
+
+
+
+
