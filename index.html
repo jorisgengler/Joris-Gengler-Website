@@ -18,12 +18,16 @@
 </head>
 
 
+
 <body>
 	<nav>
 		<ul>	
-			<a href="#home" ><img class="logo"  src="web_images/Joris website3.png"> </a> <br><br><br><br>	
+			<div class="logolijn"><a href="#home" ><img class="logo"  src="web_images/Joris website3.png"> </a></div>
 			
-		    <li><a href="#home" > <i home class="navbarlogo fa fa-home" aria-hidden="true"></i> </a></li>
+			
+			
+			
+		    <li><a href="#home" > <i home  class="navbarlogo fa fa-home" aria-hidden="true">  </i> </a></li>
 			<li><a href="#about"> <i user class="navbarlogo fa fa-user-o" aria-hidden="true"> </i> </a></li>
 			<li><a href="#skills"> <i class=" navbarlogo fa fa-cog" aria-hidden="true"></i> </a></li>
 			<li><a href="#blok5"> <i class=" navbarlogo fa fa-eye" aria-hidden="true"></i> </a></li>				
@@ -32,12 +36,14 @@
 	</nav>	
 
 
- 
+	<!-- Achtergrond Video -->
+	
 	<video id="achtergrondvideo" poster="web_images/background.png" id="achtergrond"   playsinline autoplay muted loop>
 	<source src="Mijn film.mp4" type="video/mp4">
 	</video>
 
-
+	<!-- Section 1  -->
+	
 <section id="home">
 	<div  class="home content">
 	
@@ -49,16 +55,13 @@
 	
 		<br><p2>&nbsp;&nbsp;Learn more about what I do&nbsp;&nbsp; </p1> <br>
 
-	<a href="#about"> <i class="downbutton fa fa-sort-desc" aria-hidden="true"></i> </a>
-		
+	<a href="#about"> <i class="downbutton fa fa-sort-desc" aria-hidden="true"></i> </a>		
 	</div>
-	
-
-
 	
 	</div>
 </section>
 
+	<!-- Section 2   -->
 
 <section id="about">	
 	<div class="content">
@@ -66,7 +69,7 @@
 		<FONT  color="#ffffff" SIZE="7" FACE="Arial,Times New Roman">Joris Gengler</FONT> <br>
 		<img src="web_images/joris.jpg" alt="Joris" style="width: 300px; height: auto; max-width: 25%; float: right; padding: 4px; border: 1px solid grey; margin: -40px 20px; ">  
 
-<p2> 
+<p1> 
 
 Ik ben Joris Gengler, woonachtig te Nieuw-Amsterdam.<br>
 Mijn interesses zijn Elektronica, Html, Css, JavaScript, nieuwe ontwikkelingen en <br>
@@ -75,7 +78,7 @@ Mijn ouders hebben een aspergeboerderij. Hier ben ik tijdens het seizoen ook act
 In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 
 
-</p2>
+</p1>
 
 	<div class="downbuttononder">
 	
@@ -85,6 +88,7 @@ In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 
 	</div>
 	
+	<!-- Section 3   -->	
 </section>
 
 	<section id="skills">
@@ -92,13 +96,15 @@ In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 		
 	<FONT  color="#ffffff" SIZE="7" FACE="Arial,Times New Roman">skills</FONT> <br>	
 	<p1>dsfasdf</p1>
-	
+		
+		
+
 	
 		</div>		
 </section>
 
 
-
+	<!-- Section 4   -->
 	
 <section id="blok5">
 	<div class="onderblok5 content">
@@ -106,7 +112,9 @@ In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 	<div class="flex-container">
 	<div class="flex-item blok5">
 	
-	<p1>blok1</p1>
+
+		<div class="googlemapsopmaak" id="googleMap" ></div>
+	
 	
 	</div>
   
@@ -131,7 +139,7 @@ In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 
 </section>
 
-
+	<!-- Section 5   -->
 <section id="contact">
 	<div class="contact content">	
 		<div class ="contactblok">	
@@ -149,39 +157,25 @@ In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 	
 	
 	
-		<div class="container"> <!--contact formulier -->
+	<div class="container"> <!--contact formulier -->
 		<form action="/action_page.php">
 
-		<label for="fname"> <p1>Name</p1></label>
-		<input type="text" id="fname" name="firstname" placeholder="Your name">
+			<label for="fname"> <p1>Name</p1></label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name">
 
-		<label for="lname"> <p1>E-mail</p1> </label>
-		<input type="text" id="lname" name="lastname" placeholder="E-mail">
+			<label for="lname"> <p1>E-mail</p1> </label>
+			<input type="text" id="lname" name="lastname" placeholder="E-mail"> 
 
-		<label for="subject"> <p1>Subject</p1> </label>
-		<textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
+			<label for="subject"> <p1>Subject</p1> </label>
+			<textarea id="subject" name="subject" placeholder="Write something" style="height:200px"></textarea>
 
-		<input type="submit" value="Submit">
+			<input onclick="contactalert()" type="submit" value="Submit">                      </input>
 
 		</form>
 	</div> 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	
 
@@ -192,6 +186,8 @@ In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 	
 
 	<script src="java.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDt9QutH8JlD-GQ-7GHXUAFXFGruWNu3IA&callback=myMap"></script> 
+
 	
 	
  </body>
@@ -207,7 +203,7 @@ In 2015 heb ik mijn diploma Middenkader Engineeringtechnicus gehaald.
 	</p1><br>
 
 	<A target=blank HREF="https://www.facebook.com/joris.gengler">  <img class="facebook"  src="web_images/facebook.png" alt="Facebook" style="width: 40px; height: auto; max-width: 25%; float: center; padding: 4px; margin: 0px 0px;"> </a>
- </footer>
+</footer>
 
  
  
