@@ -10,21 +10,15 @@ body {
 /*	background-image: url("web_images/background.jpg"); */
 /*	background-color: black;/* wanneer achtergrond niet weergegeven kan worden*/
 	background-attachment: fixed;
-	background-position: center; 
-	
+	background-position: center; 	
 }
-
-
 
 nav /*boven*/
 {
 	background: darkslategray;
 	opacity: 1;
-
-
-
-
 }
+
 nav ul /* navagatie bar */
 {
     background: linear-gradient(90deg, 
@@ -35,11 +29,12 @@ nav ul /* navagatie bar */
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
      inset 0 0 1px rgba(255, 255, 255, 0.6);
 }
+
 nav ul li 
 {
-    display: inline-block;
-	
+    display: inline-block;	
 }
+
 nav ul li a /* Tekst navagatie bar */
 {
     padding: 10px; 
@@ -48,8 +43,8 @@ nav ul li a /* Tekst navagatie bar */
     font-family: arial, helvetica, sans-serif;
     text-decoration: none;
     display: block;
-
  }
+ 
  nav ul li a:hover {
 	background-color: #2F4F4F; 
 }
@@ -57,6 +52,7 @@ nav ul li a /* Tekst navagatie bar */
 .logolijn{
 	display: inline-block;
 }
+
 
 		
 
@@ -114,12 +110,43 @@ nav ul li a:hover {
 	background-color: #2F4F4F; 
 }
  
- 
  }
  
+ 
+ 
 .linkedin{
-  color: #0077B5;
-  fill: currentColor;
+	color: gray;
+	fill: currentColor;
+	opacity:1;
+}
+
+.linkedin:hover{
+	color: #0077B5;
+	fill: currentColor;
+	opacity:1;
+}
+
+.facebook{
+	color: gray;
+	fill: currentColor;
+	opacity:1;
+}
+
+.facebook:hover{
+	color: #3B5998;
+	fill: currentColor;
+	opacity:1;
+}
+
+.git{
+	color: gray;
+	fill: currentColor;
+	opacity:1;
+}
+.git:hover{
+	color: #f14e32;
+	fill: currentColor;
+	opacity:1;
 }
 
 
@@ -143,8 +170,7 @@ nav ul li a:hover {
 
 	margin-left:14px;
 	font-size:35px;
-	color:#8be5dc;
-	
+	color:#8be5dc;	
 }
 
 .navbarlogo:hover{
@@ -152,13 +178,13 @@ nav ul li a:hover {
 	-webkit-transition: 1s ease-in-out;
 	-moz-transition: 1s ease-in-out;
 	transition: 1s ease-in-out;
-
 } 
 .contactlogo{
 	margin-left:14px;
 	font-size:35px;
 	color:#8be5dc;	
 }
+
 .downbutton{
 	
 	margin-left:14px;
@@ -166,10 +192,11 @@ nav ul li a:hover {
 	color:#8be5dc;	
 	position: absolute;
 }
+
 .downbutton:hover{
-	color:black;
-	
+	color:black;	
 }
+
 
 .downbuttononder{
 	text-align: center;
@@ -177,51 +204,35 @@ nav ul li a:hover {
 	padding-top: 0px;	
 } 
 
-.facebook:hover{
-	-webkit-transition: 1s ease-in-out;
-	-moz-transition: 1s ease-in-out;
-	transition: 1s ease-in-out;
-	transform: scale(1.3);
-}  
 
+  
+.content {
+	padding-left: 30px; 
+	padding-top: 10px;
+	margin-left: 80px;
+	margin-bottom:0px;
+	min-height:100vh;
+	background: rgba(27, 53, 53, 0.9);
+	}
+	
 .flex-container {
     display: -webkit-flex;
     display: flex;
     width: auto;
     height: 100vh;
-    background-color: #1b3535;
-
-
+    /* background-color: #1b3535; */
+	opacity:1;
+	margin-left: 2%;
+	margin-right: 4%;	
 }
 
 .flex-item {
-    background-color: cornflowerblue;
+    background-color: darkslategray;
     width: 585px;
-    height: 600px;
-    margin: 10px;
+    height: 94%;
+    margin: 1%;
 	opacity:1;
-
-	
 }
-
-.homeblok1{
-	background:gray;
-	margin-right:200px;
-	
-	
-	
-}
-
-
-.content {
-	padding-left: 30px; 
-	padding-top: 10px;
-    background: #1b3535;
-	margin-left: 80px;
-	margin-bottom:0px;
-	opacity: 0.9;
-	min-height:100vh;
-	}
 
 .home {/* Tekst blok home pagina */
 
@@ -233,13 +244,20 @@ nav ul li a:hover {
 	opacity:1;
 }
 
-
 .texthomeblok{
 	
 	padding-top: 260px;
 	margin-left:140px;
 }
 
+.aboutblok{
+	background-color:darkslategray;
+	margin-right: 50%;
+	padding-top: 1%;
+	padding-right: 1%;
+	padding-left: 1%;
+	padding-bottom: 1%;
+}
 
 .about{
 
@@ -264,21 +282,21 @@ nav ul li a:hover {
 	padding-bottom:10px;
 	text-align: center;	
 	margin-top: 10px;
-
 }
+
+
 
 .googlemapsopmaak{
 	
 	width:100%;
-	height:600px; 
-
+	height:100%; 
+	opacity:1;
 }
 
 .blok5{
 	background-color: darkslategray;
 	text-align: left;
-	
-	
+	opacity:1;
 }
 
 p1 /*tekst kleur 1*/
@@ -292,30 +310,22 @@ p2{
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
-	
 	border-radius: 7px;
     background-color: darkslategray;
-
 }
-
-
-
-
 
 footer /* onder aan de pagina*/
 { 
 	margin-left:80px;
-	padding: 0px;
+	padding: 70px;
 /*	max-height: 220px; */
     clear: both; 
     background: darkslategray;
-    text-align: center;
+    /* text-align: center; */
 	bottom:0;
 /*	position:relative; */
-	opacity: 0.9;
+	opacity: 1;
 }	
-
-
 
 video /*background video*/
 { 
@@ -332,7 +342,7 @@ video /*background video*/
 }
 
 
- /* Style inputs with type="text", select elements and textareas */
+/*---------------- contactblok ----------------*/
 input[type=text], textarea {
     width: 100%; 
     padding: 12px; 
@@ -342,10 +352,8 @@ input[type=text], textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
 	resize: vertical
-
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #1b3535;
     color: white;
@@ -358,26 +366,86 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #1b3535;
-	color:black;
-	
+	color:#8be5dc;
 }
 
-/* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
     background-color: darkslategray;
 	padding-left: 20%;
 	padding-right: 20%;
-	margin-top: 25px;
-
+	margin-top: 25px;	
 } 
+/*^^^^^^^^^^^^^^^^ contactblok ^^^^^^^^^^^^^^^^*/
 
 
 
-@media (max-width:800px){ /*blok naar link*/
-	.content, footer {
-		margin-left:0;
+.socialmedia{
+	float:right;
 	
 }
 
+@media (max-width:800px){ /*blok naar link*/
+	.content, footer {
+		margin-left:0;	
+}
+}
 
+
+/*---------------- skills ----------------*/
+.skillstitle{
+	text-align:center;
+}
+
+
+.skillsblok2{
+	
+	background-color: darkslategray;
+	margin-left:3%;
+	margin-right:5%;
+	padding-bottom:10px;
+	margin-top: 10px;
+	min-height:92vh
+}
+
+
+
+.skillsblok1{
+	margin: 3%;
+	margin-right: 50%;
+}
+
+
+.container1 {
+	width: 80%;
+	background-color: #ddd;
+
+}
+
+.skillsblok {
+	text-align: right;
+	padding-right: 20px;
+	line-height: 40px;
+	color: white;
+}
+
+.html {
+	width: 80%; 
+	background-color: #b70909;
+	}
+	
+.css {
+	width: 60%; 
+	background-color: #0d3cd8;
+	}
+	
+.javascript {
+	width: 20%; 
+	background-color: #08d319;
+	}
+.php	
+{
+	width: 10%; 
+	background-color: #cc990e;
+	}
+/*^^^^^^^^^^^^^^^^ skills ^^^^^^^^^^^^^^^^*/
